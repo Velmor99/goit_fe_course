@@ -1,0 +1,136 @@
+/*size my page*/
+html {
+    box-sizing: border-box;
+    /*font-family: 'Playfair Display Regular';*/
+}
+*, 
+*::before, 
+*::after {
+box-sizing: inherit;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+/*navigation menu*/
+header {
+    padding-top: 76px;
+    padding-bottom: 104px;
+    margin: o auto;
+    text-align: center;
+}
+.site_navigation li {
+    display: inline-block;
+    margin-right: 60px;
+    color: #626262;
+    }
+.site_navigation li:last-child{
+    margin-right: 0;
+    }
+.site_navigation {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: center;
+}
+a:hover {
+    color:#03a9f4;
+    transition: 0.3s;
+}
+/*вместо этих строк взял все псевдоклассом
+.link_2 {
+    display: inline-block;
+    margin-left: 53px;
+    margin-right: 53px;
+}
+.link_3 {
+    display: inline-block;
+    margin-left: 53px;
+    margin-right: 53px;
+}
+.link_4 {
+    display: inline-block;
+    margin-left: 53px;
+    margin-right: 53px;
+}*/
+a {
+    text-decoration: none;
+    color: #626262;
+    font-size: 14px;
+    text-transform: uppercase;
+    /*font-family: 'Playfair Display Regular';*/
+}
+li:not(:first-child) {
+    display: inline-block;
+    
+    margin-right: 53px;
+}
+li {
+    list-style: none;
+}
+/*navigation menu end*/
+.article__mein {
+    width: 420px;
+    padding: 0;
+    display: inline-block;
+}
+section {
+    font-size: 0px;
+}
+.article__mein p {
+    font-size: 14px;
+}
+.title {
+    font-size: 30px;
+    color: #626262;
+    margin: 0px;
+    margin-bottom: 42px;
+}
+.titletoo {
+    color: #b9b2a4;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 28px;
+}
+.text {
+    color: #777777;
+    margin: 0px;
+}
+
+article {
+    margin-bottom: 134px;
+}
+/* заменил 4 строки на 1
+.block_1 {
+    margin-right: 60px;
+}
+.block_3 {
+    margin-right: 60px;
+}
+.block_5 {
+    margin-right: 60px;
+    margin-bottom: 0px;
+}
+.block_6 {
+    margin-bottom: 0px;*/
+article:nth-of-type(n+1):nth-of-type(-n+5):nth-of-type(odd) {
+        margin-right: 60px;
+}
+img {
+    margin-bottom: 32px;
+}
+.section__mein {
+    /*font-family: 'Playfair Display Regular';*/
+}
+button {
+    color: #898989;
+    display: block;
+    font-size: 26px;
+    text-align: center;
+    padding: 22px 34px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+button:hover {
+    cursor: pointer;
+}

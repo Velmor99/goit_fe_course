@@ -1,0 +1,154 @@
+.wrapper {
+    width: 1600px;
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .site-logo {
+      font-size: 22px;
+      text-transform: uppercase;
+      vertical-align: middle;
+      float: left;
+  }
+  .site-logo::first-letter {
+      color: #1abc9c;
+      font-weight: bold;
+  }
+  .list_item {
+      display: inline-block;
+      list-style: none;
+      margin-left: 26px;
+  }
+  .link {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 14px;
+      color: #0f0101;
+      font-weight: bold;
+  }
+  .nav_list {
+      padding: 0px;
+      margin: 0px;
+      float: right;
+  }
+  .navigation_menu {
+      padding-top: 38px;
+      margin-left: 30px;
+      padding-bottom: 32px;
+  }
+  /*nav menu end*/
+  .slider {
+      position: relative;
+  }
+  .slider_right {
+      display: inline-block;
+      position: absolute;
+      top: 226px;
+      left: 245px;
+      margin: 0px;
+      padding: 0px;
+  }
+  .slider_left {
+    display: inline-block;
+    position: absolute;
+}
+  .slider_image {
+      display: block;
+      width: 100%;
+  }
+  .symbol {
+      font-size: 38px;
+      color: #fff;
+      background-color: #1abc9c;
+      opacity: 0.7;
+      cursor: pointer;
+      width: 104px;
+      height: 104px;
+      margin: 0px;
+      padding: 0px;
+  }
+  .slider_left {
+    display: inline-block;
+    position: absolute;
+    top: 226px;
+    right: 245px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .title {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 48px;
+      text-transform: uppercase;
+      color: #515151;
+      font-family: roboto;
+      margin-top: 100px;
+
+  }
+  .title::after {
+      content: "";
+      display: block;
+      width: 164px;
+      height: 7px;
+      background-color: #1abc9c;
+      margin: auto;
+  }
+  .good {
+      float: left;
+      width: 255px;
+      height: 322px;
+      margin-bottom: 98px;
+  }
+  .inform {
+      display: inline-block;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 800;
+  }
+  .inform_about_good {
+      width: 255px;
+      height: 40px;
+      background-color: #8c8c8c;
+  }
+  .item_name {
+      width: 201px;
+      height: 40px;
+      box-sizing: border-box;
+      padding: 13px 0px 0px 7px;
+      background-color: #323232;
+      color: #fff;
+      z-index: 3;
+  }
+  .item_price {
+      font-size: 18px;
+  }
+  .inform_about_good:hover {
+      background-color: #1abc9c;
+  }
+  .good {
+      margin-right: 30px;
+  }
+  .first_good {
+      margin-left: 245px;
+  }
+  .last_good {
+      margin-right: 245px;
+  }
+  .footer {
+      height: 88px;
+      width: 100%;
+      background-color: #323232;
+      text-align: center;
+      padding-top: 38px;
+  }
+  .footer_text {
+      color: #fff;
+      font-size: 16px;
+  }
+  .blue_text {
+      color: #46bfa9;
+      font-size: 16px;
+  }
