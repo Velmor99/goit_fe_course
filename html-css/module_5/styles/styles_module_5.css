@@ -95,12 +95,14 @@
       height: 7px;
       background-color: #1abc9c;
       margin: auto;
+      margin-top: 32px;
   }
   .good {
       float: left;
       width: 255px;
       height: 322px;
       margin-bottom: 98px;
+      margin-top: 82px;
   }
   .inform {
       display: inline-block;
@@ -130,6 +132,7 @@
   }
   .good {
       margin-right: 30px;
+      position: relative;
   }
   .first_good {
       margin-left: 245px;
@@ -152,3 +155,92 @@
       color: #46bfa9;
       font-size: 16px;
   }
+  .item_image {
+      display: block;
+  }
+  .link:hover {
+      color: #1abc9c;
+  }
+  main {
+      background-color: #e9f0fd;
+  }
+  /*менюшка при наведении*/
+  .submenu {
+      width: 255px;
+      height: 282px;
+      background-color: #000;
+      opacity: 0.5;
+      position: absolute;
+      bottom: 40px;
+      left: 0px;
+      border: 10px solid rgba(255, 255, 255, 0.7);
+      box-sizing: border-box;
+  }
+  .like {
+      border: 1px solid #fff;
+      background-color: rgba(255, 255, 255, 0);
+      color: #fff;
+      cursor: pointer;
+      position: absolute;
+      top: 90px;
+      left: 45px;
+  }
+  .svg_image {
+      fill: #fff;
+  }
+  .shuffle {
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+    left: 104px;
+  } 
+  .clock {
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+    left: 163px;
+  }
+  .pointer:hover {
+      background-color: #1abc9c;
+      transition: 0.3s;
+      opacity: 1;
+  }
+  .bye {
+    border: 1px solid #fff;
+    background-color:rgba(0, 0, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    width: 168px;
+    height: 50px;
+    position: absolute;
+    top: 147px;
+    left: 45px;
+  }
+  .text_for_bye {
+      text-transform: uppercase;
+      display: inline-block;
+      vertical-align: super;
+  }
+  .pointer {
+      width: 50px;
+      height: 50px;
+  }
+  .bye:hover {
+      background-color: #323232;
+      transition: 0.3s;
+  }
+  .hover_submenu {
+      display: none;
+  }
+  .good:hover > .hover_submenu {
+   display: block;
+   transition: 1s;
+  }
+  /*конец менюшки при наведении*/
+  
