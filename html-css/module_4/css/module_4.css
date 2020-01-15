@@ -42,7 +42,6 @@
 }
 .navigation_menu {
       padding-top: 38px;
-      margin-left: 30px;
       padding-bottom: 32px;
 }
 /*nav menu end*/
@@ -83,11 +82,12 @@
     padding-top: 12px;
     padding-left: 12px;
     font-weight: 700;
+    float: left;
 }
 .item_price {
     background-color: #8c8c8c;
-    width: 54px;
-    float: right;
+    width: 55px;
+    float: left;
     height: 40px;
     box-sizing: border-box;
     text-transform: uppercase;
