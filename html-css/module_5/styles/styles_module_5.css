@@ -187,7 +187,6 @@ li {
     color: #fff;
     margin: 0px;
 }
-  }
   .inform_about_good:hover {
       background-color: #1abc9c;
   }
@@ -303,10 +302,6 @@ li {
    display: block;
    transition: 1s;
   }
-  /*не срабатывает ховер*/
-  .hover_submenu:hover.price_inform {
-    background-image: green;
-  }
-  /*не срабатывает ховер*/
-  /*конец менюшки при наведении*/
-  
+  .good:hover .item_name, .good:hover .item_price{
+    background-color: #1abc9c;
+    }
