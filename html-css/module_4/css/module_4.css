@@ -42,7 +42,7 @@
 }
 .navigation_menu {
       padding-top: 38px;
-      padding-bottom: 32px;
+      padding-bottom: 110px;
 }
 /*nav menu end*/
 .tittle_one {
@@ -52,7 +52,6 @@
     display: block;
     margin: 0 auto;
     text-align: center;
-    margin-top: 110px;
 }
 .tittle_one::after {
     content: '';
@@ -100,9 +99,9 @@
     color: #fff;
 }
 /*почему то не срабатывает правило, хотя я написал вроде как вы сказали*/
-.link_image:hover.item_name {
-    background-image: green;
-}
+.good:hover .item_name, .good:hover .item_price{
+    background-color: #1abc9c;
+    }
 /*почему то не срабатывает правило, хотя я написал вроде как вы сказали*/
 img {
     display: block;
@@ -119,6 +118,7 @@ img {
 }
 .father_float_block_2 {
     margin-top: 30px;
+    padding-bottom: 110px;
 }
 h3 {
     font-family: open sans;
@@ -149,7 +149,7 @@ h3::after {
     text-align: left;
     line-height: 18px;
 }
-button {
+.link_read_more {
     height: 50px;
     width: 160px;
     border-radius: 5px;
@@ -157,6 +157,11 @@ button {
     text-transform: uppercase;
     color: #fff;
     font-family: roboto;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 18px;
 }
 .information_block {
     margin-top: 80px;
