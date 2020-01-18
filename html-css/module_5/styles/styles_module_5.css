@@ -140,8 +140,9 @@ li {
       float: left;
       width: 255px;
       height: 322px;
-      margin-bottom: 98px;
       margin-top: 82px;
+      margin-right: 30px;
+      position: relative;
   }
   .inform {
       display: inline-block;
@@ -190,10 +191,6 @@ li {
   .inform_about_good:hover {
       background-color: #1abc9c;
   }
-  .good {
-    margin-right: 30px;
-    position: relative;
-  }
   .last_good {
       margin-right: 0px;
   }
@@ -220,6 +217,7 @@ li {
   }
   .bgc-color {
       background-color: #e9f0fd;
+      padding-bottom: 98px;
   }
   /*менюшка при наведении*/
   .submenu {
