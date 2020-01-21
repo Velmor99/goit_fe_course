@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles_7.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav>
         <div class="wrapper flex_box">
             <a class="site_logo" href="#">golden</a>
@@ -24,48 +25,41 @@
         </nav>
     </header>
     <main>
-        <section class="wrapper">
+        <section class="wrapper inform_section">
             <h2 class="tittle_first_section">services</h2>
-            <h3 class="tittletoo_first_section">Proin iaculis purus consequat sem cure.</h3>
+            <p class="tittletoo_first_section">Proin iaculis purus consequat sem cure.</p>
             <ul class="information_block">
-            <li class="informatin_list_item">
-                <img class="icon" src="images/Icon-Basket.png" alt="" height="72px" width="72px">
+            <li class="information_list_item first_list_item">
                 <h3 class="tittle_inform">E-Commerce</h3>
                 <p class="text_inform">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
             </li>
-            <li class="informatin_list_item">
-                <img class="icon" src="images/Group1.png" alt="" height="72px" width="72px">
+            <li class="information_list_item second_list_item">
                 <h3 class="tittle_inform">Responsive Web</h3>
                 <p class="text_inform">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
             </li>
-            <li class="informatin_list_item">
-                <img class="icon" src="images/Icon-Locked.png" alt="" height="72px" width="72px">
+            <li class="information_list_item third_list_item">
                 <h3 class="tittle_inform">Web Security</h3>
                 <p class="text_inform">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
             </li>
             </ul>
         </section>
-        <form action="" method="GET">
-        <section class="section_form">
-           <img class="bgi_second_section" src="images/bcg.jpg" alt="">
+        <section class="section_form bgi">
            <div class="wrapper">
            <h2 class="tittle_form_block">contact us</h2>
-           <h3 class="tittletoo_form_block">Proin iaculis purus consequat sem cure.</h3>
-        <ul class="fields_to_fill">
-           <li class="small_block">
+           <p class="tittletoo_form_block">Proin iaculis purus consequat sem cure.</p>
+           <form action="" method="GET">
+        <div class="fields_to_fill">
+           <div class="small_block">
                <input class="input_row" type="text" name="name" placeholder="Your name *" required>
-           </li>
-           <li class="small_block">
                <input class="input_row"  type="email" name="email" placeholder="Your e-mail *" required>
-           </li>
-           <li class="small_block">
                <input class="input_row" type="text" name="subject" placeholder="subject">
-           </li>
-           <li class="big_block">
+               </div>
+               <div>
                <textarea class="input_textarea" name="message" id="" name="message" cols="30" rows="10" placeholder="Your message *" required></textarea>
-           </li>
-        </ul>
+           </div>
+        </div>
         <button class="submit" type="submit">send message</button>
+    </form>
         </div>
         </section>
     </main>
