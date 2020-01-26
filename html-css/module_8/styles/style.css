@@ -119,7 +119,7 @@ header {
     border-radius: 50%;
     border: 4px solid #fff;
     display: inline-block;
-    background-image: url(/module_8/images/televisor.png);
+    background-image: url(../images/televisor.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -130,7 +130,7 @@ header {
     border-radius: 50%;
     border: 4px solid #fff;
     display: inline-block;
-    background-image: url(/module_8/images/colba.png);
+    background-image: url(../images/colba.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -141,7 +141,7 @@ header {
     border-radius: 50%;
     border: 4px solid #fff;
     display: inline-block;
-    background-image: url(/module_8/images/cup.png);
+    background-image: url(../images/cup.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -152,7 +152,7 @@ header {
     border-radius: 50%;
     border: 4px solid #fff;
     display: inline-block;
-    background-image: url(/module_8/images/telegram.png);
+    background-image: url(../images/telegram.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
