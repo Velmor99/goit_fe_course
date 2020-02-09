@@ -1,0 +1,165 @@
+.section-second__tittle {
+    font-family: 'Kaushan Script', verdana, sans-serif;
+    display: block;
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 47px;
+    text-align: center;
+}
+.section-second__tittle-two {
+    font-family: 'montserrat', verdana, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+.section-second__tittle-two::after {
+    content: "";
+    display: block;
+    background-color: #f38181;
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 42px;
+    margin-bottom: 46px;
+}
+.section-second__tittle-text {
+    text-align: center;
+    font-size: 14px;
+    font-family: roboto;
+    color: #c3c3c3;
+    margin-bottom: 95px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0px 130px 0px 130px;
+}
+.our-team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 84px;
+    height: 100%;
+}
+.our-team__animated-photo {
+    position: relative;
+    width: 380px;
+}
+.our-team__animated-photo:hover {
+    -webkit-transform: translate(-10px, -10px);
+        -ms-transform: translate(-10px, -10px);
+            transform: translate(-10px, -10px);
+    -webkit-transition-duration: 200ms;
+         -o-transition-duration: 200ms;
+            transition-duration: 200ms;
+}
+.our-team__hover-icon:hover {
+    -webkit-transform: translate(-10px, -10px);
+        -ms-transform: translate(-10px, -10px);
+            transform: translate(-10px, -10px);
+    -webkit-transition-duration: 200ms;
+         -o-transition-duration: 200ms;
+            transition-duration: 200ms;
+}
+
+.our-team__hover-icon:hover > .our-team__socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.our-team__hover-icon:hover > .our-team__gradient {
+    display: block;
+}
+.hover-icon__animated-block {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.our-team__gradient {
+    width: 380px;
+    height: 470px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(239,137,138,0.9)), to(rgba(240,216,137,0.9)));
+    background-image: -o-linear-gradient(rgba(239,137,138,0.9), rgba(240,216,137,0.9));
+    background-image: linear-gradient(rgba(239,137,138,0.9), rgba(240,216,137,0.9));
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.our-team__animated-photo:hover > .our-team__gradient {
+    display: block;
+    -webkit-box-shadow: 10px 10px #95e1d3;
+            box-shadow: 10px 10px #95e1d3;
+}
+.our-team__gradient:hover > .our-team__socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 10;
+}
+.hover_icon:hover > .our-team__gradient {
+    display: block;
+}
+.our-team__socials {
+    width: 254px;
+    height: 56px;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    position: absolute;
+    top: 207px;
+    left: 78px;
+    display: none;
+}
+.hover_icon:hover > .our-team__socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.our-team__social-link {
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fce38a;
+    padding-top: 18px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.our-team__social-link:hover {
+    background-color: #f38181;
+}
+.our-team__name {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    display: block;
+    text-align: center;
+    font-family: 'montserrat', verdana, sans-serif;
+    margin-top: 30px;
+}
+.our-team__destination {
+    font-size: 14px;
+    color: #999999;
+    display: block;
+    text-align: center;
+    font-family: 'roboto', verdana, sans-serif;
+    margin-top: 16px;
+}
+[class*="our-team__svg"] {
+    fill: #f38181;
+}
+[class*="our-team__svg"]:hover {
+    fill: #fff;
+}

@@ -1,0 +1,46 @@
+.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-shadow: 0 -1px 0px 0px #e5e5e5;
+            box-shadow: 0 -1px 0px 0px #e5e5e5;
+    margin: 0;
+    padding-bottom: 70px;
+}
+.footer__form {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.footer__span--red-text {
+    color: red;
+}
+.footer__btn {
+    width: 140px;
+    height: 40px;
+    background-color: #95e1d3;
+    font-family: montserrat;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+}
+.footer__text {
+    padding-top: 24px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin: 0;
+}
+.footer__input-email {
+    height: 40px;
+    width: 230px;
+    border: 1px solid #e7e7e7;
+}

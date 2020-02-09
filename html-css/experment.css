@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+   flex-direction: column;
+}
+footer {
+    /*position: absolute; bad*/
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    /*{{{{{margin-top: auto}}}}}; good*/
+    /*width: 100vw; bad*/
+
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*IE 10 & 11 have a number of issues with rendering flexbox properly.
+
+Here's one: A flex container doesn't respect the min-height property in these browsers.
+
+A simple solution is to make your flex container also a flex item.
+
+Just add this to your code (no other changes necessary):
+
+body {
+   display: flex;
+   flex-direction: column;
+}*/
+-----------------------------------------------------BEM----------------------------------------------------
+/*awards start*/
+.awards {
+
+}
+.awards__list {
+
+}
+.awards__item {
+
+}
+.awards__item_red {
+
+}
+/*awards end*/
