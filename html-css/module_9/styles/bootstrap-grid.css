@@ -29,15 +29,15 @@ html {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 788px) {
   .container {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 90px) {
   .container {
-    max-width: 960px;
+    max-width: 940px;
   }
 }
 
@@ -67,9 +67,9 @@ html {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 960px) {
   .container, .container-sm, .container-md, .container-lg {
-    max-width: 960px;
+    max-width: 940px;
   }
 }
 
@@ -1807,7 +1807,7 @@ html {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 960px) {
   .flex-lg-row {
     -ms-flex-direction: row !important;
     flex-direction: row !important;
