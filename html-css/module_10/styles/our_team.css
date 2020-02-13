@@ -160,6 +160,6 @@
 [class*="our-team__svg"] {
     fill: #f38181;
 }
-[class*="our-team__svg"]:hover {
+.our-team__social-link:hover .our-team__svg {
     fill: #fff;
 }
